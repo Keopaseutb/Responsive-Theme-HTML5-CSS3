@@ -32,6 +32,7 @@ a:hover, a:active {
   background-color: #666;
   height: 40px;
   position: relative;
+  clear: both; - no element tags around it
   /*top: 40px;*/
   /*border-radius: 5px;
   -moz-border-radius: 5px;
@@ -43,12 +44,13 @@ a:hover, a:active {
   margin: 0 auto;
 }
 
-
+/*The float was controled here*/
 .mainHeader nav ul li {
   float: right;
   display: inline;
 }
 
+/*The link boxes are stlyed here*/
 .mainHeader nav a:link, .mainHeader nav a:visited {
   color: #FFF;
   display: inline-block;
@@ -56,16 +58,17 @@ a:hover, a:active {
   height: 20px;
 }
 
+/*Haight and links here too*/
 .mainHeader nav a:hover, .mainHeader nav a:active a:link, .mainHeader nav .active a:visited {
   background-color: #CF5C3F;
   text-shadow: none;
 }
 
-.mainHeader nav ul li a {
+/*.mainHeader nav ul li a {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-}
+}*/
 
 .landingImg div {
   /*position: absolute;*/
@@ -74,6 +77,8 @@ a:hover, a:active {
 */
 }
 
+/*might need to move the img tag somewhere out of the current dive
+  25:00 video*/
 .mainHeader img {
   width: 100%;
   height: auto;
@@ -200,7 +205,7 @@ a:hover, a:active {
   }
 
   .mainHeader nav {
-    height: 60px;
+    height: 40px;
     position: relative;
     top: 0px;
   }
@@ -209,16 +214,18 @@ a:hover, a:active {
     padding-left: 0;
   }
 
-
+/*The links are stlyed here*/
   .mainHeader nav ul li {
-    width: 100%;
+    width: 25%;
     text-align: center;
   }
-
+/*display here*/
   .mainHeader nav a:link, .mainHeader nav a:visited {
+    background-color: red;
+    /*float: left;*/
     padding: 10px 25px;
     height: 20px;
-    display: inline-block;
+    display: block;
   }
 
   .mainContent {
