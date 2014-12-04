@@ -40,14 +40,17 @@ a:hover, a:active {
 }
 
 .mainHeader nav ul {
+  width: 30%;
   list-style: none;
   margin: 0 auto;
 }
 
 /*The float was controled here*/
 .mainHeader nav ul li {
-  float: right;
-  display: inline;
+  background-color: red;
+  /*width: 100%;*/
+  float: left;
+  display: inline-block;
 }
 
 /*The link boxes are stlyed here*/
@@ -211,6 +214,7 @@ a:hover, a:active {
   }
 
   .mainHeader nav ul {
+    width: 100%;
     padding-left: 0;
   }
 
@@ -221,7 +225,7 @@ a:hover, a:active {
   }
 /*display here*/
   .mainHeader nav a:link, .mainHeader nav a:visited {
-    background-color: red;
+   /* background-color: red;*/
     /*float: left;*/
     padding: 10px 25px;
     height: 20px;
@@ -229,6 +233,7 @@ a:hover, a:active {
   }
 
   .mainContent {
+    margin-top: 130px;
     line-height: 28px;
   }
 
