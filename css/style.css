@@ -1,0 +1,259 @@
+body {
+  color: #000305;
+  font-size: 87.5%;
+  font-family: Arial, 'Lucida Sans Unicode';
+  line-height: 1.5;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:link, a:visited {
+  color: #CF5C3F;
+
+}
+
+a:hover, a:active {
+  background-color: #CF5C3F;
+  color: #FFF;
+}
+
+.body {
+  margin: 0 auto;
+  width: 100%;
+  clear: both;
+}
+
+
+.mainHeader nav {
+  background-color: #666;
+  height: 40px;
+  position: relative;
+  clear: both;
+}
+
+.mainHeader nav ul {
+  width: 30%;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+  background-color: red;
+  float: left;
+  display: inline-block;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+  color: #FFF;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active a:link, .mainHeader nav .active a:visited {
+  background-color: #CF5C3F;
+  text-shadow: none;
+}
+
+
+.landingImg div {
+  /*position: absolute;*/
+  /*max-width: 100%;*/
+  /*margin: 0 auto;
+*/
+}
+
+
+.mainHeader img {
+  width: 100%;
+  height: auto;
+  top: -40px;
+  position: fixed;
+  z-index: -1;
+}
+
+
+
+
+.mainContent {
+  margin-top: 67%;
+  line-height: 25px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.content {
+  width: 70%;
+  float: left;
+}
+
+.topcontent {
+  background-color: red;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 0%;
+}
+
+.bottomcontent {
+  background-color: #FFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.post-info {
+  font-style: italic;
+  color: #999;
+  font-size: 90%;
+}
+
+.top-sidebar img {
+  border-radius: 50% 50%;
+  border:thin solid black;
+  width: 100%;
+  height: auto;
+  margin: 2% 0;
+}
+
+.top-sidebar {
+  width: 21%;
+  float: left;
+  background-color: red;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 0 0 2% 3%;
+  padding: 2% 3%;
+}
+
+.middle-sidebar img {
+  width: 100%;
+  height: auto;
+  margin: 2% 0;
+}
+
+.middle-sidebar {
+  width: 21%;
+  float: left;
+  background-color: #FFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 0 0 1% 3%;
+  padding: 1% 1%;
+}
+
+.bottom-sidebar {
+  width: 21%;
+  float: right;
+  background-color: red;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 0 0 2% 3%;
+  padding: 2% 3%;
+}
+
+.mainFooter {
+  width: 100%;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #666;
+  margin: 2% 0;
+}
+
+.mainFooter p {
+  width: 92%;
+  margin: 10px auto;
+  color: #FFF;
+}
+
+@media only screen and (min-height: 150px) and (max-width: 600px)
+{
+  .body {
+    width: 90.141%;
+    font-size: 95%;
+  }
+
+  .mainHeader img {
+    width: 90%;
+  }
+
+  .mainHeader nav {
+    height: 40px;
+    position: relative;
+    top: 0px;
+  }
+
+  .mainHeader nav ul {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .mainHeader nav ul li {
+    width: 25%;
+    text-align: center;
+  }
+
+  .mainHeader nav a:link, .mainHeader nav a:visited {
+    padding: 10px 25px;
+    height: 20px;
+    display: block;
+  }
+
+  .mainContent {
+    margin-top: 130px;
+    line-height: 28px;
+  }
+
+  .content {
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+  }
+
+  .post-info {
+    display: none;
+  }
+
+  .topcontent {
+    margin-top: 3%;
+    margin-bottom: 4%;
+  }
+
+  .bottomcontent {
+    margin-top: 3%;
+    margin-bottom: 4%;
+  }
+
+  .top-sidebar img {
+    width: 100%;
+  }
+
+  .top-sidebar {
+    width: 94%;
+    margin: 0 0 2% 0%;
+    padding: 2% 3%;
+  }
+
+  .middle-sidebar img {
+    width: 100%;
+  }
+
+  .middle-sidebar, .bottom-sidebar {
+    width: 94%;
+    margin: 2% 0 2% 0%;
+    padding: 2% 3%;
+  }
+}
