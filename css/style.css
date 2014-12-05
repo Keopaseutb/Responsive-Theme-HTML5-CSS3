@@ -27,12 +27,22 @@ a:hover, a:active {
   clear: both;
 }
 
+.mainHeader img {
+  width: 100%;
+  height: auto;
+  top: -40px;
+  position: fixed;
+  z-index: -1;
+}
 
 .mainHeader nav {
-  background-color: #666;
+  /*background-color: #666;*/
   height: 40px;
-  position: relative;
-  clear: both;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  /*clear: both;*/
 }
 
 .mainHeader nav ul {
@@ -43,7 +53,7 @@ a:hover, a:active {
 .mainHeader nav ul li {
   float: left;
   width: 25%;
-  background-color: red;
+  /*background-color: red;*/
   display: inline;
 }
 
@@ -55,7 +65,8 @@ a:hover, a:active {
 }
 
 .mainHeader nav a:hover, .mainHeader nav a:active a:link, .mainHeader nav .active a:visited {
-  background-color: #CF5C3F;
+  background-color: #FFF;
+  color: #000305;
   text-shadow: none;
 }
 
@@ -68,13 +79,6 @@ a:hover, a:active {
 }
 
 
-.mainHeader img {
-  width: 100%;
-  height: auto;
-  top: -40px;
-  position: fixed;
-  z-index: -1;
-}
 
 
 
@@ -186,13 +190,14 @@ a:hover, a:active {
     font-size: 95%;
   }
 
+
   .mainHeader img {
     width: 90%;
   }
 
   .mainHeader nav {
     height: 40px;
-    position: relative;
+    position: fixed;
     top: 0px;
   }
 
