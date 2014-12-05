@@ -36,15 +36,15 @@ a:hover, a:active {
 }
 
 .mainHeader nav ul {
-  width: 30%;
   list-style: none;
   margin: 0 auto;
 }
 
 .mainHeader nav ul li {
-  background-color: red;
   float: left;
-  display: inline-block;
+  width: 25%;
+  background-color: red;
+  display: inline;
 }
 
 .mainHeader nav a:link, .mainHeader nav a:visited {
@@ -88,8 +88,8 @@ a:hover, a:active {
 }
 
 .content {
-  width: 70%;
   float: left;
+  width: 70%;
 }
 
 .topcontent {
@@ -125,8 +125,8 @@ a:hover, a:active {
 }
 
 .top-sidebar {
-  width: 21%;
   float: left;
+  width: 21%;
   background-color: red;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -142,8 +142,8 @@ a:hover, a:active {
 }
 
 .middle-sidebar {
-  width: 21%;
   float: left;
+  width: 21%;
   background-color: #FFF;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -153,8 +153,8 @@ a:hover, a:active {
 }
 
 .bottom-sidebar {
-  width: 21%;
   float: right;
+  width: 21%;
   background-color: red;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -164,8 +164,8 @@ a:hover, a:active {
 }
 
 .mainFooter {
-  width: 100%;
   float: left;
+  width: 100%;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -218,8 +218,8 @@ a:hover, a:active {
   }
 
   .content {
-    width: 100%;
     float: left;
+    width: 100%;
     margin-top: 5%;
   }
 
