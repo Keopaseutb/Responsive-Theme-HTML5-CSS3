@@ -27,24 +27,34 @@ a:hover, a:active {
   clear: both;
 }
 
+.mainHeader img {
+  width: 100%;
+  height: auto;
+  top: -40px;
+  position: fixed;
+  z-index: -1;
+}
 
 .mainHeader nav {
-  background-color: #666;
+  /*background-color: #666;*/
   height: 40px;
-  position: relative;
-  clear: both;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  /*clear: both;*/
 }
 
 .mainHeader nav ul {
-  width: 30%;
   list-style: none;
   margin: 0 auto;
 }
 
 .mainHeader nav ul li {
-  background-color: red;
   float: left;
-  display: inline-block;
+  width: 25%;
+  /*background-color: red;*/
+  display: inline;
 }
 
 .mainHeader nav a:link, .mainHeader nav a:visited {
@@ -55,19 +65,13 @@ a:hover, a:active {
 }
 
 .mainHeader nav a:hover, .mainHeader nav a:active a:link, .mainHeader nav .active a:visited {
-  background-color: #CF5C3F;
+  background-color: #FFF;
+  color: #000305;
   text-shadow: none;
 }
 
 
 
-.mainHeader img {
-  width: 100%;
-  height: auto;
-  top: -40px;
-  position: fixed;
-  z-index: -1;
-}
 
 
 
@@ -80,8 +84,8 @@ a:hover, a:active {
 }
 
 .content {
-  width: 70%;
   float: left;
+  width: 70%;
 }
 
 .topcontent {
@@ -117,8 +121,8 @@ a:hover, a:active {
 }
 
 .top-sidebar {
-  width: 21%;
   float: left;
+  width: 21%;
   background-color: red;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -134,8 +138,8 @@ a:hover, a:active {
 }
 
 .middle-sidebar {
-  width: 21%;
   float: left;
+  width: 21%;
   background-color: #FFF;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -145,8 +149,8 @@ a:hover, a:active {
 }
 
 .bottom-sidebar {
-  width: 21%;
   float: right;
+  width: 21%;
   background-color: red;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -156,8 +160,8 @@ a:hover, a:active {
 }
 
 .mainFooter {
-  width: 100%;
   float: left;
+  width: 100%;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -178,13 +182,14 @@ a:hover, a:active {
     font-size: 95%;
   }
 
+
   .mainHeader img {
     width: 90%;
   }
 
   .mainHeader nav {
     height: 40px;
-    position: relative;
+    position: fixed;
     top: 0px;
   }
 
@@ -210,8 +215,8 @@ a:hover, a:active {
   }
 
   .content {
-    width: 100%;
     float: left;
+    width: 100%;
     margin-top: 5%;
   }
 
